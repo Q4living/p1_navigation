@@ -10,7 +10,7 @@ The Algorithm used in this project is based on the vanila DQN from the coding ex
 
 A plot of rewards per episode is included to illustrate that the agent is able to receive an average reward (over 100 episodes) of at least +13. The submission reports the number of episodes needed to solve the environment.
 
-![Plot of Rewards](https://octodex.github.com/images/yaktocat.png)
+![Plot of Rewards](p1_nav_score_plt_00.png)
 
 [video link](https://youtu.be/bANBVKUrS0M)
 
