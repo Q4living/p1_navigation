@@ -29,4 +29,5 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ## Instructions
 Follow the instructions in `Navigation.ipynb` to see how a trained agent play!
+
 Or [watch on youtube](https://www.youtube.com/watch?v=bANBVKUrS0M)
