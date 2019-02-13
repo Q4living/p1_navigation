@@ -27,5 +27,4 @@ With above hyper parameter setting, the agent was able to achieve good performan
 
 ## Ideas for Future Work
 
-This simple DQN agent shows a common issue that it does not remember the state of the bananas it has seen. As such, the geo-location information is lost and the agent only pick up the most bananas it sees at the moment. Therefore, I will continue to work on it for a higher dimension that connect to the neural network to approximate distance and location of each object the agent has seen. Then, the agent can find optimal path to collect most of the bananas within the time period.
-
+This is the vanila DQN and for next step, I will try to implement DDQN, Dueling network to evaluate the robustness of each model. From working with the experience replay, I do see there are a lot of work to be done the reply buffer like the David Sliver for the PER (Prioritized Experience Reply) and might further improve the replay buffer with a tuple of time series experience instead of individual action. Furthermore, I will explore the combination of LSTM instead of normal dense layer because a lot of actions are continous as a series. As such, I really enjoy this project and have been inspired to further work on it.
